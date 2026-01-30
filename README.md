@@ -1,8 +1,10 @@
 # Figuring Out How to Use AI (As a Non-Technical Person)
 
-I've spent hundreds of hours in Claude Code working on projects, creating and editing documents, automating workflows, cleaning data, and asking it boatloads of questions. I've also built multiple apps and - from what I can tell - wrote one of the earlier tactical vibecoding guides for non-technical users. That said, despite being an early adopter and fairly heavy user, I've been hesitant to adopt an AI Operating System (OS).
+As a non-technical person, the idea of being able to talk to an AI and have it create or do whatever I can imagine feels like a real-life superpower. So far, Claude Code has been the first AI tool I've used that's felt close(ish) to being a true general pupose AI agent. As a result, I've now spent hundreds of hours in Claude Code working on projects, creating and editing documents, automating workflows, manipulating data, and asking it boatloads of questions. Sometimes I even get amazing results, and other times I end up spending more time trying and failing to get it to do what I want than it would have taken me to just do the thing manually in the first place.
 
-Before I explain my hesitance, or what I'm doing about it, let's define (or at least, describe) our terms.
+That said, despite all my enthusiasm for the tech, and despite hearing tons of stories of people building 'AI Operating Systems' to automate away their daily to-dos, and transform their productivity, I've been hesitant to go down the rabbit hole of building an AI Operating System (OS).
+
+Before I explain my hesitance, or my process for thinking through when and how to proceed with building an AI OS, let me attempt to define my terms.
 
 ## What is an 'AI OS'?
 
