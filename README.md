@@ -44,7 +44,7 @@ The measure of success: Can I help myself and others make better decisions here 
 If you'd like to participate in the discussion, or just follow along:
 
 1. **Star this repo** to follow updates
-2. **Head to the [Discussions](../../discussions)** to share your experiences or answer questions
+2. **Head to the [AI OS Questions Discussion](https://github.com/Cob-AI/figuring-out-ai/discussions/1)** to share your experiences or answer questions
 3. **Have a document you'd like to add?** Open a PR or start a discussion
 
 ---
