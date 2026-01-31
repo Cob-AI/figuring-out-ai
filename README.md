@@ -10,11 +10,11 @@ Before I explain my hesitance, or my process for thinking through when and how t
 
 My back of napkin definition: An AI OS is a system where AI has native access to all the relevant context, tools, and skills to do the kinds of work that a human might otherwise do (or wish to do). This might include answering user questions, automating and executing workflows, and manipulating data and artifacts, coaching and mentoring, etc. In practice, current AI models aren't set up for success to do all (arguably, most) of the work a human might be capable of doing, and so the AI OS has less to do with the volume or types of tasks it's given, or the quality at which it's able to complete them (who said an OS has to be 'good'?) and more to do with the context, tools, and skills it has access to. I.e. when we call upon it to get day-to-day things done, it can attempt the job without much if any manual configuration (and hopefully, it rocks it).
 
-Put another way, an AI OS is what I imagine when I think of 'AI-native company operations' - for example what Victor Sower describes as [The Knowledge Pyramid That Unlocks Agentic Growth](https://www.linkedin.com/pulse/knowledge-pyramid-unlocks-agentic-growth-victor-sowers-qxoje/); his [Newsletter Automation Workflow](https://www.linkedin.com/posts/victorsowers_automating-newsletters-activity-7414329242412576768-FyRw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAASWCnsBqOvOFPero66gJ5RiBUTSWxkmQog) being an example of the kinds of capabilities an AI OS might enable. It's also what I imagine when Jacob Dietle talks about building a Context OS, or Jordan Crawford talks about having a goal of running 100% of his business by voice.
+Put another way, an AI OS is what I imagine when I think of 'AI-native company operations' - for example what [Victor Sowers](https://www.linkedin.com/in/victorsowers/) describes as [The Knowledge Pyramid That Unlocks Agentic Growth](https://www.linkedin.com/pulse/knowledge-pyramid-unlocks-agentic-growth-victor-sowers-qxoje/); his [Newsletter Automation Workflow](https://www.linkedin.com/posts/victorsowers_automating-newsletters-activity-7414329242412576768-FyRw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAASWCnsBqOvOFPero66gJ5RiBUTSWxkmQog) being an example of the kinds of capabilities an AI OS might enable. It's also what I imagine when [Jacob Dietle](https://www.linkedin.com/in/jacob-dietle/) [talks about building a Context OS](https://jacobdietle.substack.com/), or [Jordan Crawford](https://www.linkedin.com/in/jordancrawford/) talks about having a goal of running 100% of his business by voice.
 
-It's also what I imagine when people say they've built an automated system for AI to manage their inbox and calendar and be their executive coach and help them out with daily questions and activities and generally speaking just get things done for them. For example, It's what I'm imagining Alex Finn potentially has when he describes his [OpenClaw (prev. Clawdbot) implementation](https://x.com/AlexFinn/status/2016963034246500437?s=20). And how well do the best of these systems actually work in practice? That's part of what I'm trying to figure out.
+It's also what I imagine when people say they've built an automated system for AI to manage their inbox and calendar and be their executive coach and help them out with daily questions and activities and generally speaking just get things done for them. For example, It's what I'm imagining [Alex Finn](https://x.com/AlexFinn) potentially has when he describes his [OpenClaw (prev. Clawdbot) implementation](https://x.com/AlexFinn/status/2016963034246500437?s=20). And how well do the best of these systems actually work in practice? That's part of what I'm trying to figure out.
 
-Hopefully that gives people a sense of what I'm talking about when I say 'AI OS'. If it's still not clear, encourage you to browse the content of some of the people I shared. And if you have a better way of framing all this, I'd love to learn from you.
+Hopefully that gives people a sense of what I'm talking about when I say 'AI OS'. If it's still not clear, encourage you to browse the content of some of the people I shared. And for the folks who have a better way of framing all this, I'd love to learn from you.
 
 ## So why haven't I built an AI OS, yet?
 
@@ -53,8 +53,8 @@ If you'd like to participate in the discussion, or just follow along:
 
 ## Credits
 
-Shoutout to the people whose content has shaped my thinking on this:
-- [Victor Sowers](https://www.linkedin.com/in/victorsowers/) — AI-native B2B growth
-- [Jacob Dietle](https://www.linkedin.com/in/jacobdietle/) — Context OS
-- [Jordan Crawford](https://www.linkedin.com/in/jordancrawford/) — Voice-first operations
-- [Alex Finn](https://x.com/AlexFinn) — OpenClaw implementation
+Shoutout to a few of the people whose content has shaped my thinking on this:
+- [Victor Sowers](https://www.linkedin.com/in/victorsowers/)
+- [Jacob Dietle](https://www.linkedin.com/in/jacob-dietle/)
+- [Jordan Crawford](https://www.linkedin.com/in/jordancrawford/)
+- [Alex Finn](https://x.com/AlexFinn)
