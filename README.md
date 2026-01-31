@@ -35,9 +35,16 @@ The measure of success: Can I help myself and others make better decisions here 
 
 ---
 
-## Documents
+## What's in This Repo
+
+### Documents
 
 - **[AI OS Questions](aios-questions.md)** — My full list of questions and concerns about implementing an AI OS
+  - [Join the discussion](https://github.com/Cob-AI/figuring-out-ai/discussions/1)
+
+### Skills (for Claude Code)
+
+- **[Repo Security Review](skills/repo-security-review/)** — Review GitHub repos for security risks before installing them. Designed for non-technical users who want to safely explore open-source AI tools without blindly trusting code they can't read. *Use at your own risk.*
 
 ---
 
