@@ -50,7 +50,7 @@ In Claude Code, say things like:
 
 ## Disclaimer
 
-**USE AT YOUR OWN RISK.**
+**Note: I'm not a security engineer. Rely on this skill at your own risk.**
 
 This skill is a helpful tool, not a guarantee of safety. It can miss things. It can flag things that are actually fine. It's meant to give you *more* information to make decisions, not to make decisions for you.
 

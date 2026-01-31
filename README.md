@@ -44,7 +44,7 @@ The measure of success: Can I help myself and others make better decisions here 
 
 ### Skills (for Claude Code)
 
-- **[Repo Security Review](skills/repo-security-review/)** — Review GitHub repos for security risks before installing them. Designed for non-technical users who want to safely explore open-source AI tools without blindly trusting code they can't read. *Use at your own risk.*
+- **[Repo Security Review](skills/repo-security-review/)** — Review GitHub repos for security risks before installing them. Designed for non-technical users who want to safely explore open-source AI tools without blindly trusting code they can't read. *Note: I'm not a security engineer. Rely on this skill at your own risk.*
 
 ---
 
