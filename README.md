@@ -1,16 +1,32 @@
 # Figuring Out How to Use AI (As a Non-Technical Person)
 
-As a non-technical person, the idea of being able to talk to an AI and have it create or do whatever I can imagine feels like a real-life superpower. So far, Claude Code has been the first AI tool I've used that's felt close(ish) to being a true general pupose AI agent. As a result, I've now spent hundreds of hours in Claude Code working on projects, creating and editing documents, automating workflows, manipulating data, and asking it boatloads of questions. Sometimes I even get amazing results, and other times I end up spending more time trying and failing to get it to do what I want than it would have taken me to just do the thing manually in the first place.
+## Introduction
 
-That said, despite all my enthusiasm for the tech, and despite hearing tons of stories of people building 'AI Operating Systems' to automate away their daily to-dos, and transform their productivity, I've been hesitant to go down the rabbit hole of building an AI Operating System (OS).
+I've created this repo as a place where I can document my journey to figure out how to build an AI OS that actually works the way I'd want. The goal being to hopefully learn from the experience of others so that I'm not learning so many damned lessons the hard way, and to hopefully create along the way a resource that others find similarly useful. 
 
-Before I explain my hesitance, or my process for thinking through when and how to proceed with building an AI OS, let me attempt to define my terms.
+Think of it as a sort of open-source AI Operating System-focussed blog/community/tool stack.
+
+##Why an AI Operating System, specifically?
+
+As a non-technical person, the possibility of being able to talk to an AI and have it create or do whatever I can imagine feels like a real-life superpower. So far, Claude Code has been the first AI tool I've used that's felt like a genuine (if still flawed) general pupose AI agent. As a result, I've now spent hundreds of hours in Claude Code working on projects, creating and editing documents, automating workflows, manipulating data, and asking it boatloads of questions. Sometimes I get amazing results, and other times I end up spending more time trying and failing to get it to do what I want than it would have taken me to just do the thing manually in the first place. (aka lots of excitement + occasional moments where I want to pull my hair out)
+
+That said, despite being a fairly early adopter and heavy user of AI tech, and despite hearing
+
+The past few months I've been hearing lots of chatter about building 'AI Operating Systems' using Claude Code that give people the kind of superpowers that got me excited about AI in the first place. In fact, it's because of how darn excited I am about this, and how big a deal I think it is, that I've created this blog to help guide my adoption of the tech.
+
+So why haven't I done it yet?
+
+Before I explain my concerns, or how I'm thinking through my next steps here, let me attempt to define what an AI OS (imo) even is.
 
 ## What is an 'AI OS'?
 
-My back of napkin definition: An AI OS is a system where AI has native access to all the relevant context, tools, and skills to do the kinds of work that a human might otherwise do (or wish to do). This might include answering user questions, automating and executing workflows, and manipulating data and artifacts, coaching and mentoring, etc. In practice, current AI models aren't set up for success to do all (arguably, most) of the work a human might be capable of doing, and so the AI OS has less to do with the volume or types of tasks it's given, or the quality at which it's able to complete them (who said an OS has to be 'good'?) and more to do with the context, tools, and skills it has access to. I.e. when we call upon it to get day-to-day things done, it can attempt the job without much if any manual configuration (and hopefully, it rocks it).
+Think 'talking to ChatGPT', except in addition to it's training data, it has access to all the proprietary context that a human employee would have access to with which to do high quality work, and is able to do just about anything a human can do with a computer (at least, that's the vision, and where I believe the tech is headed).
 
-Put another way, an AI OS is what I imagine when I think of 'AI-native company operations' - for example what [Victor Sowers](https://www.linkedin.com/in/victorsowers/) describes as [The Knowledge Pyramid That Unlocks Agentic Growth](https://www.linkedin.com/pulse/knowledge-pyramid-unlocks-agentic-growth-victor-sowers-qxoje/); his [Newsletter Automation Workflow](https://www.linkedin.com/posts/victorsowers_automating-newsletters-activity-7414329242412576768-FyRw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAASWCnsBqOvOFPero66gJ5RiBUTSWxkmQog) being an example of the kinds of capabilities an AI OS might enable. It's also what I imagine when [Jacob Dietle](https://www.linkedin.com/in/jacob-dietle/) [talks about building a Context OS](https://jacobdietle.substack.com/), or [Jordan Crawford](https://www.linkedin.com/in/jordancrawford/) talks about having a goal of running 100% of his business by voice.
+My back of napkin definition: An AI OS is a system where AI has native access to all the relevant context, tools, and skills it needs to complete the kinds of projects, tasks, and activities on a computer that a human might otherwise be able to do. 
+
+For example, this might include answering user questions, automating and executing workflows, and manipulating data and artifacts, coaching and mentoring, etc. Though in practice, current AI models aren't set up for success to do all (arguably, most) of the work a human might be capable of doing, and so whether something's an AI OS has less to do with the volume or types of tasks it's given, or the quality at which it's able to complete them (who said every OS has to be a 'good' OS?), and more to do with the context, tools, and skills it has access to. I.e. when we ask it to get things done, it can attempt the job without much if any manual configuration (and in the perfect world, it rocks it).
+
+Described another way, an AI OS is what I imagine when I think of 'AI-native company operations' - for example what [Victor Sowers](https://www.linkedin.com/in/victorsowers/) describes as [The Knowledge Pyramid That Unlocks Agentic Growth](https://www.linkedin.com/pulse/knowledge-pyramid-unlocks-agentic-growth-victor-sowers-qxoje/); his [Newsletter Automation Workflow](https://www.linkedin.com/posts/victorsowers_automating-newsletters-activity-7414329242412576768-FyRw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAASWCnsBqOvOFPero66gJ5RiBUTSWxkmQog) being an example of the kinds of capabilities an AI OS might enable. It's also what I imagine when [Jacob Dietle](https://www.linkedin.com/in/jacob-dietle/) [talks about building a Context OS](https://jacobdietle.substack.com/), or [Jordan Crawford](https://www.linkedin.com/in/jordancrawford/) talks about having a goal of running 100% of his business by voice.
 
 It's also what I imagine when people say they've built an automated system for AI to manage their inbox and calendar and be their executive coach and help them out with daily questions and activities and generally speaking just get things done for them. For example, It's what I'm imagining [Alex Finn](https://x.com/AlexFinn) potentially has when he describes his [OpenClaw (prev. Clawdbot) implementation](https://x.com/AlexFinn/status/2016963034246500437?s=20). And how well do the best of these systems actually work in practice? That's part of what I'm trying to figure out.
 
@@ -39,8 +55,9 @@ The measure of success: Can I help myself and others make better decisions here 
 
 ### Documents
 
-- **[AI OS Questions](aios-questions.md)** — My full list of questions and concerns about implementing an AI OS
+- **[AI OS Questions](aios-questions.md)** — My most pressing questions and concerns about implementing an AI OS
   - [Join the discussion](https://github.com/Cob-AI/figuring-out-ai/discussions/1)
+- [Guide to Building with AI (as a Non-Developer) - August 1, 2025](https://open.substack.com/pub/therevenueleadershippodcast/p/ai-digest-guest-post?utm_campaign=post-expanded-share&utm_medium=web)
 
 ### Skills (for Claude Code)
 
