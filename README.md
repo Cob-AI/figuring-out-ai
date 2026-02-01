@@ -6,7 +6,7 @@ I've created this repo as a place where I can document my journey to figure out 
 
 Think of it as a sort of open-source AI Operating System-focussed blog/community/tool stack.
 
-##Why an AI Operating System, specifically?
+## Why an AI Operating System, specifically?
 
 As a non-technical person, the possibility of being able to talk to an AI and have it create or do whatever I can imagine feels like a real-life superpower. So far, Claude Code has been the first AI tool I've used that's felt like a genuine (if still flawed) general pupose AI agent. As a result, I've now spent hundreds of hours in Claude Code working on projects, creating and editing documents, automating workflows, manipulating data, and asking it boatloads of questions. Sometimes I get amazing results, and other times I end up spending more time trying and failing to get it to do what I want than it would have taken me to just do the thing manually in the first place. (aka lots of excitement + occasional moments where I want to pull my hair out)
 
