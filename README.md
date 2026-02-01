@@ -1,4 +1,4 @@
-# Figuring Out How to Use AI (As a Non-Technical Person)
+# Figuring Out AI (As a Non-Technical Person)
 
 ## Introduction
 
