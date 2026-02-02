@@ -55,7 +55,7 @@ The measure of success: Can I help myself and others make better decisions here 
 
 ### Documents
 
-- **[AI OS Questions](aios-questions.md)** — My most pressing questions and concerns about implementing an AI OS
+- **[AI OS Questions](ai-os-questions.md)** — My most pressing questions and concerns about implementing an AI OS
   - [Join the discussion](https://github.com/Cob-AI/figuring-out-ai/discussions/1)
 - [Guide to Building with AI (as a Non-Developer) - August 1, 2025](https://open.substack.com/pub/therevenueleadershippodcast/p/ai-digest-guest-post?utm_campaign=post-expanded-share&utm_medium=web)
 
