@@ -68,11 +68,11 @@ Tl;dr: I'm just generally quite concerned about an AI OS' quality and reliabilit
 - How narrow vs broad does the AI OS implementation need to be to generate the intended productivity gains?
 - If my implementation is narrow, presumably that means I'm going to be having to spin up micro projects (and, micro repos) way more frequently. Things can get messy quickly. How do I manage all of this?
 - How does the implementation and maintenance effort change if I'm running all, some, or none of the AI OS locally?
-- Effort to come up with and maintain all the YAML/JSON objects (and any other connective tissue in the 'context graph')?
+- Effort to come up with and maintain all the YAML/JSON objects (and any other connective tissue in the 'context graph')? And presumably, it's not going to be perfect, and the AI will miss important things occasionally... what's the process for measuring/managing/mitigating this?
 - Effort to transition my messy folders and docs to structured files with JSON objects?
 - How do I systematically prevent AI output from cluttering my directories?
 - What are the common missteps when implementing something like this? (Curious both from the perspective of a small 1-3 person team, midmarket, and enterprise)
-- How robust/fragile is the context graph, typically?
+- How robust/fragile is the context graph, typically? For example, if I want to tweak the spelling or naming of one of the core objects, or change the title and URL of a markdown file, do the sections of the context graph related to those objects/connections break? If so, what's the 'better practice' approach to handling this?
 
 ---
 
